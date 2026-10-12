@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cenovnik — Apartmani Marea</title>
+<meta name="description" content="Cene apartmana po noćenju za svaku sezonu, u evrima. Šta je uključeno u cenu i uslovi rezervacije.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" fill="#0f6f87"/><circle cx="24" cy="19" r="7" fill="#f3c14e"/>
+        <path d="M6 30c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M6 37c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3" stroke="#bfe9f2" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-text">Apartmani&nbsp;Marea</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Otvori meni" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks" aria-label="Glavna navigacija">
+      <a href="index.html">Početna</a>
+      <a href="apartmani.html">Apartmani</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="cenovnik.html" class="is-active" aria-current="page">Cenovnik</a>
+      <a href="lokacija.html">Lokacija</a>
+      <a href="kontakt.html" class="nav-cta">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <nav class="breadcrumb" aria-label="Putanja"><a href="index.html">Početna</a> › Cenovnik</nav>
+      <span class="eyebrow">Cene i uslovi</span>
+      <h1>Cenovnik</h1>
+      <p class="lead">Cene su po apartmanu, za jedno noćenje, izražene u evrima (€). Za boravke duže od 7 noći odobravamo popust.</p>
+    </div>
+    <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60 C240 92 480 18 720 40 C960 62 1200 96 1440 54 L1440 90 L0 90 Z"></path>
+    </svg>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="table-wrap">
+        <table class="price">
+          <caption class="muted" style="caption-side:top;text-align:left;padding:1rem 1.1rem;font-size:.9rem">Cene po noćenju (€)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Apartman</th>
+              <th scope="col">Vansezona<br><span style="font-weight:400;text-transform:none;letter-spacing:0">okt – apr</span></th>
+              <th scope="col">Predsezona<br><span style="font-weight:400;text-transform:none;letter-spacing:0">maj, jun, sep</span></th>
+              <th scope="col">Glavna sezona<br><span style="font-weight:400;text-transform:none;letter-spacing:0">jul, avg</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="apt">Studio „Galeb“ <span class="muted" style="font-weight:400">· 2 osobe</span></td>
+              <td><span class="eur">35 €</span></td>
+              <td><span class="eur">45 €</span></td>
+              <td><span class="eur">60 €</span></td>
+            </tr>
+            <tr>
+              <td class="apt">Studio „Lavanda“ <span class="muted" style="font-weight:400">· 2–3 osobe</span></td>
+              <td><span class="eur">40 €</span></td>
+              <td><span class="eur">50 €</span></td>
+              <td><span class="eur">70 €</span></td>
+            </tr>
+            <tr>
+              <td class="apt">Apartman „Jadran“ <span class="muted" style="font-weight:400">· 4 osobe</span></td>
+              <td><span class="eur">55 €</span></td>
+              <td><span class="eur">70 €</span></td>
+              <td><span class="eur">95 €</span></td>
+            </tr>
+            <tr>
+              <td class="apt">Apartman „Maslina“ <span class="muted" style="font-weight:400">· 6 osoba</span></td>
+              <td><span class="eur">80 €</span></td>
+              <td><span class="eur">100 €</span></td>
+              <td><span class="eur">135 €</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid grid-2" style="margin-top:2.4rem">
+        <div class="feature">
+          <h3>✓ Uključeno u cenu</h3>
+          <ul class="specs" style="flex-direction:column;gap:.6rem;align-items:flex-start">
+            <li>🛏️ Posteljina i peškiri</li>
+            <li>🧼 Završno čišćenje</li>
+            <li>📶 Wi-Fi internet</li>
+            <li>🚗 Parking mesto</li>
+            <li>💧 Voda, struja i klima</li>
+          </ul>
+        </div>
+        <div class="feature">
+          <h3>ℹ️ Uslovi rezervacije</h3>
+          <ul class="specs" style="flex-direction:column;gap:.6rem;align-items:flex-start">
+            <li>📅 Minimalni boravak: 3 noći (u sezoni 5 noći)</li>
+            <li>🕛 Prijava od 14h, odjava do 10h</li>
+            <li>💶 Akontacija 30% pri rezervaciji</li>
+            <li>🎁 Popust 10% za boravak duži od 7 noći</li>
+            <li>🏷️ Boravišna taksa nije uključena (~1 € po osobi/dan)</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="note" style="margin-top:2rem">✏️ <b>Napomena:</b> Cene i uslovi su primer — upišite svoje iznose, sezone i pravila. Recite mi tačne cene pa ću ih ja ubaciti u tabelu.</p>
+
+      <div class="cta-band" style="margin-top:2.4rem">
+        <h2 class="h-section">Proverite dostupnost za vaš termin</h2>
+        <p>Pošaljite nam datume dolaska i odlaska — potvrđujemo slobodne apartmane i konačnu cenu.</p>
+        <a class="btn btn-on-dark" href="kontakt.html">Pošalji upit</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#0f6f87"/><circle cx="24" cy="19" r="7" fill="#f3c14e"/>
+          <path d="M6 30c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M6 37c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3" stroke="#bfe9f2" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">Apartmani Marea</span>
+      </a>
+      <p>Vaš mir na obali Jadrana.<br>Budva, Crna Gora.</p>
+    </div>
+    <div>
+      <h4>Stranice</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="apartmani.html">Apartmani</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="cenovnik.html">Cenovnik</a></li>
+        <li><a href="lokacija.html">Lokacija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <p>Telefon: +382 67 123 456<br>E-pošta: info@apartmani-marea.me<br>Adresa: Jadranski put bb, Budva</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span class="year">2026</span> Apartmani Marea. Sva prava zadržana.</p>
+    <p>Napravljeno s ljubavlju prema moru 🌊</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
